@@ -21,7 +21,9 @@ verbose_name = {
 }
 
 # Load model
+# Set the file path to the pre-trained diabetic retinopathy detection model.
 model_path = 'C:\\Users\\pc\\OneDrive\\Desktop\\diabetic detection using retinopathy\\model\\dr_model.h5'
+# Load the model from the specified path using Keras' load_model function.
 model = load_model(model_path)
 
 # State
